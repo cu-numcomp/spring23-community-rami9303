@@ -30,12 +30,9 @@ Check the following boxes when complete or add a note below if you
 encountered a problem.
 
 - [x] I have installed the software
-- [ ] I have run at least one example
+- [x] I have run at least one example
 - [x] I have run the test suite
 - [x] The test suite passes
-
-| I have run at least one example |
-There are tutorials at [https://learn.astropy.org/tutorials] but requires me to install additional packages. But I'm unable to install them. It gets frozen at "Solving environment". The install.rst on the Astropy github instructions state to use conda for these packages. Will update my proposal.md if I am able to resolve issue and run an example.
 
 conda install -c conda-forge -c defaults scipy matplotlib \
   h5py beautifulsoup4 html5lib bleach pandas sortedcontainers \
