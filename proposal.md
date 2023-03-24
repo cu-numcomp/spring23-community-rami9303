@@ -34,15 +34,6 @@ encountered a problem.
 - [x] I have run the test suite
 - [x] The test suite passes
 
-conda install -c conda-forge -c defaults scipy matplotlib \
-  h5py beautifulsoup4 html5lib bleach pandas sortedcontainers \
-  pytz setuptools mpmath bottleneck jplephem asdf pyarrow
-Collecting package metadata (current_repodata.json): done
-Solving environment: failed with initial frozen solve. Retrying with flexible solve.
-Solving environment: failed with repodata from current_repodata.json, will retry with next repodata source.
-Collecting package metadata (repodata.json): done
-Solving environment: - 
-
 | The test suite passes |
 Test suite passes but 1 fails. test_core.py::test_rename_path
 
